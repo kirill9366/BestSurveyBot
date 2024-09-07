@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "aiogram-telegram-bot-template"
+version = "0.1.0"
+description = ""
+authors = ["veenrokdalv  <veenrokdalv@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiogram = "^3.8.0"
+cachetools = "^5.3.3"
+pytimeparse = "^1.1.8"
+babel = "^2.15.0"
+redis = "^5.0.7"
+environs = "^11.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
